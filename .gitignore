@@ -1,5 +1,5 @@
 # Python
-__pycache__/
+**pycache**/
 *.py[cod]
 *.so
 .Python
@@ -20,8 +20,10 @@ var/
 *.egg
 
 # DVC
-/data
-.dvc/
+/data/**
+!/data/**/*.dvc
+!/data/.gitignore
+!.dvc
 
 # Virtual Environment
 venv/
